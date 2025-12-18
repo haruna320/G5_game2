@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 1253233812}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -453,6 +453,7 @@ GameObject:
   - component: {fileID: 1743059181}
   - component: {fileID: 1743059180}
   - component: {fileID: 1743059182}
+  - component: {fileID: 1743059183}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -655,6 +656,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 7ec42e3976249094ba561bcba6c3e17e, type: 2}
+--- !u!114 &1743059183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743059175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 22239ead5025ba342892750f756ab430, type: 2}
 --- !u!1 &2117145345
 GameObject:
   m_ObjectHideFlags: 0
