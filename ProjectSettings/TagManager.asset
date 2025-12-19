@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DARig
   - Object
+  - Floor
   layers:
   - Default
   - TransparentFX
