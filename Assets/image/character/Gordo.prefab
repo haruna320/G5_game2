@@ -715,7 +715,11 @@ GameObject:
   m_Component:
   - component: {fileID: 404906}
   - component: {fileID: 9563046}
+<<<<<<< HEAD
   - component: {fileID: -6787678591062489679}
+=======
+  - component: {fileID: 2088304059270632405}
+>>>>>>> b7eae443933395819ef8ace4e9c327188e71ff4e
   m_Layer: 0
   m_Name: Gordo
   m_TagString: Untagged
@@ -761,7 +765,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+<<<<<<< HEAD
 --- !u!114 &-6787678591062489679
+=======
+--- !u!114 &2088304059270632405
+>>>>>>> b7eae443933395819ef8ace4e9c327188e71ff4e
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
