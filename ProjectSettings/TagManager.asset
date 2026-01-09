@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - DARig
+  - Object
+<<<<<<< HEAD
+  - Floor
+  - Vegetable
+=======
+>>>>>>> parent of 409a76d (G5_game)
   layers:
   - Default
   - TransparentFX
