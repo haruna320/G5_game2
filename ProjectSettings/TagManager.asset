@@ -6,8 +6,11 @@ TagManager:
   tags:
   - DARig
   - Object
+<<<<<<< HEAD
   - Floor
   - Vegetable
+=======
+>>>>>>> parent of 409a76d (G5_game)
   layers:
   - Default
   - TransparentFX

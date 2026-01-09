@@ -55,7 +55,10 @@ public class PlayerMoveScript : MonoBehaviour
             HPBar.fillAmount = (float)HP / MaxHP;
 
             myRigidbody.linearVelocity = new Vector2(0, 20);
-            
+            if (HP == 0)
+            {
+               
+            }
         }
     }
 
