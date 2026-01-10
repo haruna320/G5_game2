@@ -1,23 +1,27 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HpGauge : MonoBehaviour
 {
-    public Slider hpSlider;
-    public int maxHp = 100;
-    public int minHp = 0;
+    public int HP = 100;
+    private Func<Rigidbody2D> myRigidbody;
+    private int maxHP;
+    public Image HPBar;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        myRigidbody = this.GetComponent<Rigidbody2D>;
+        maxHP = HP;
     }
 
-    void OnTriggerEnter(Collider col)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(col.gameObject.tag == "recover")
+        if(collision.gameObject.tag == "Swwets")
         {
-            hpSlider.value += 20;
-            Destroy(col.gameObject);
+            HP++;
+            Debug.Log("nowhp = " + HP);
+            HPBar.fillAmount = (float)HP / maxHP;
         }
     }
 

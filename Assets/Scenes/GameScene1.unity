@@ -11459,9 +11459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fed41dfb03da76d449e88be86c647556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HpGauge
-  hpSlider: {fileID: 0}
-  maxHp: 100
-  minHp: 0
+  HP: 100
+  HPBar: {fileID: 0}
 --- !u!1 &1795761121
 GameObject:
   m_ObjectHideFlags: 0
