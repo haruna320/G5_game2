@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fa96882a4fd2ef84b98cfc628de21505
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 156749
+  packageName: Interactive Comic Maker
+  packageVersion: 1.3
+  assetPath: Assets/Scenes/SampleScene.unity
+  uploadId: 408750
