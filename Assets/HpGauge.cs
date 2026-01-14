@@ -16,11 +16,18 @@ public class HpGauge : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Swwets")
+        if(collision.gameObject.tag == "Player")
         {
+           
             HP++;
             Debug.Log("nowhp = " + HP);
+            
             HPBar.fillAmount = (float)HP / maxHP;
+
+            if(HPBar != null)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
