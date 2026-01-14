@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
 
     private int jumpCount = 0;      // 現在のジャンプ回数
     public int maxJumpCount = 2;    // 最大ジャンプ回数（2で二段ジャンプ）
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -20,16 +19,12 @@ public class PlayerController : MonoBehaviour
         // 入力取得
         float h = Input.GetAxis("Horizontal");
         bool jumpRequest = Input.GetKeyDown(KeyCode.Space);
-
-        // ★移動処理（linearVelocity → velocity に修正）
         rb.linearVelocity = new Vector2(h * moveSpeed, rb.linearVelocity.y);
-
         // 左右反転
         if (h != 0)
         {
             transform.localScale = new Vector3(Mathf.Sign(h), 1, 1);
         }
-
         // ★ジャンプ（最大2回）
         if (jumpRequest && jumpCount < maxJumpCount)
         {
