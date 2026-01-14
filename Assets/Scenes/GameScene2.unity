@@ -225,6 +225,8 @@ MonoBehaviour:
   delay: 5
   speed: 5
   direction: {x: -1, y: 0}
+  targetX: 15
+  nextSceneName: GameScene3
 --- !u!1001 &812352681
 PrefabInstance:
   m_ObjectHideFlags: 0
