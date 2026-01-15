@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,9 +10,14 @@ public class PlayerController : MonoBehaviour
 
     private int jumpCount = 0;      // 現在のジャンプ回数
     public int maxJumpCount = 2;    // 最大ジャンプ回数（2で二段ジャンプ）
+    public int HP = 5;
+    
+    private int MaxHP;
+    public Image HPBar;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        MaxHP = HP;
     }
 
     void Update()
@@ -41,6 +47,9 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.collider.CompareTag("Floor"))
         {
+            HP++;
+            Debug.Log("nowHP = " + HP);
+            HPBar.fillAmount = (float)HP / MaxHP;
             jumpCount = 0;
         }
     }
