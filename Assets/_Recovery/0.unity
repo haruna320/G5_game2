@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &6031271
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,7 +694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &80061589
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &86053669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,7 +1729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &220929604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2578,7 +2578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &310313411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,8 +3415,8 @@ GameObject:
   - component: {fileID: 392869494}
   - component: {fileID: 392869498}
   m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
+  m_Name: HPBar
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4609,7 +4609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &559351785
 GameObject:
   m_ObjectHideFlags: 0
@@ -5163,7 +5163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &687503317
 GameObject:
   m_ObjectHideFlags: 0
@@ -5905,7 +5905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &843121015
 GameObject:
   m_ObjectHideFlags: 0
@@ -6056,7 +6056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &864965310
 GameObject:
   m_ObjectHideFlags: 0
@@ -6750,7 +6750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1017185100
 GameObject:
   m_ObjectHideFlags: 0
@@ -7079,7 +7079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1095042656
 GameObject:
   m_ObjectHideFlags: 0
@@ -7504,7 +7504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1113767965
 GameObject:
   m_ObjectHideFlags: 0
@@ -7655,7 +7655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1124161589
 GameObject:
   m_ObjectHideFlags: 0
@@ -7806,7 +7806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1163255004
 GameObject:
   m_ObjectHideFlags: 0
@@ -8580,7 +8580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1221869040
 GameObject:
   m_ObjectHideFlags: 0
@@ -9048,7 +9048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1270203760
 GameObject:
   m_ObjectHideFlags: 0
@@ -10969,7 +10969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1603077526
 GameObject:
   m_ObjectHideFlags: 0
@@ -11347,7 +11347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1689595100
 GameObject:
   m_ObjectHideFlags: 0
@@ -11498,7 +11498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1693615870
 GameObject:
   m_ObjectHideFlags: 0
@@ -11649,7 +11649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1693883748
 GameObject:
   m_ObjectHideFlags: 0
@@ -12835,7 +12835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1904476489
 GameObject:
   m_ObjectHideFlags: 0
@@ -12986,7 +12986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &1907570936
 GameObject:
   m_ObjectHideFlags: 0
@@ -13496,7 +13496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  gaugeImage: {fileID: 0}
+  HPBar: {fileID: 0}
 --- !u!1 &2053803814
 GameObject:
   m_ObjectHideFlags: 0
