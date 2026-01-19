@@ -269,7 +269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &6031271
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,7 +693,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &80061589
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +843,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &86053669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,7 +1726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &220929604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2578,7 +2574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &310313411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,8 +3794,8 @@ MonoBehaviour:
   moveSpeed: 5
   jumpPower: 8
   maxJumpCount: 2
-  HP: 5
-  HPBar: {fileID: 1017185102}
+  HP: 0
+  HPBar: {fileID: 1173395972}
 --- !u!50 &408063726
 Rigidbody2D:
   serializedVersion: 5
@@ -4608,7 +4603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &559351785
 GameObject:
   m_ObjectHideFlags: 0
@@ -5162,7 +5156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &687503317
 GameObject:
   m_ObjectHideFlags: 0
@@ -5904,7 +5897,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &843121015
 GameObject:
   m_ObjectHideFlags: 0
@@ -6055,7 +6047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &864965310
 GameObject:
   m_ObjectHideFlags: 0
@@ -6749,7 +6740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1017185100
 GameObject:
   m_ObjectHideFlags: 0
@@ -6785,7 +6775,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -292.96237, y: 147.59839}
+  m_AnchoredPosition: {x: -283.8, y: 143}
   m_SizeDelta: {x: 168.5788, y: 40.4449}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1017185102
@@ -7078,7 +7068,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1095042656
 GameObject:
   m_ObjectHideFlags: 0
@@ -7503,7 +7492,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1113767965
 GameObject:
   m_ObjectHideFlags: 0
@@ -7654,7 +7642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1124161589
 GameObject:
   m_ObjectHideFlags: 0
@@ -7805,7 +7792,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1163255004
 GameObject:
   m_ObjectHideFlags: 0
@@ -7977,7 +7963,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -292.96237, y: 147.59839}
+  m_AnchoredPosition: {x: -283.8, y: 143.00002}
   m_SizeDelta: {x: 168.5788, y: 40.4449}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1173395972
@@ -8000,11 +7986,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 2868101353237766674, guid: 6deb6671276e8914383c74e80ab7b215, type: 3}
+  m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
@@ -8579,7 +8565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1221869040
 GameObject:
   m_ObjectHideFlags: 0
@@ -9047,7 +9032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1270203760
 GameObject:
   m_ObjectHideFlags: 0
@@ -11005,7 +10989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1603077526
 GameObject:
   m_ObjectHideFlags: 0
@@ -11383,7 +11366,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1689595100
 GameObject:
   m_ObjectHideFlags: 0
@@ -11534,7 +11516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1693615870
 GameObject:
   m_ObjectHideFlags: 0
@@ -11685,7 +11666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1693883748
 GameObject:
   m_ObjectHideFlags: 0
@@ -12871,7 +12851,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1904476489
 GameObject:
   m_ObjectHideFlags: 0
@@ -13022,7 +13001,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &1907570936
 GameObject:
   m_ObjectHideFlags: 0
@@ -13532,7 +13510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 055570812971d3f42bac9f94a289c234, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCharge
-  HPBar: {fileID: 1173395972}
 --- !u!1 &2053803814
 GameObject:
   m_ObjectHideFlags: 0
