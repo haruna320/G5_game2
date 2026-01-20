@@ -10554,6 +10554,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1519255682517910379, guid: b6ed95875921a1f4f9c6f17b9f812b11, type: 3}
+      propertyPath: HPBar
+      value: 
+      objectReference: {fileID: 1884067543}
     - target: {fileID: 128850, guid: b6ed95875921a1f4f9c6f17b9f812b11, type: 3}
       propertyPath: m_Name
       value: Gordo
