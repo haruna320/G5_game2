@@ -1,5 +1,3 @@
-using System;
-using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private int jumpCount = 0;      // 現在のジャンプ回数
     public int maxJumpCount = 2;    // 最大ジャンプ回数（2で二段ジャンプ）
     public int HP = 0;
+    public Color Background, Value;
     
     private int MaxHP;
     public Image HPBar;
@@ -20,6 +19,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        HPBar = gameObject.GetComponent<Image>();
         MaxHP = HP;
     }
 
@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             jumpCount++;
         }
+       
     }
 
     // 地面に触れたらジャンプ回数リセット
