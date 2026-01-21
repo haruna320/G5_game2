@@ -3692,6 +3692,14 @@ PrefabInstance:
       propertyPath: HPBar
       value: 
       objectReference: {fileID: 1173395972}
+    - target: {fileID: -1519255682517910379, guid: b6ed95875921a1f4f9c6f17b9f812b11, type: 3}
+      propertyPath: jumpPower
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1519255682517910379, guid: b6ed95875921a1f4f9c6f17b9f812b11, type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 128850, guid: b6ed95875921a1f4f9c6f17b9f812b11, type: 3}
       propertyPath: m_Name
       value: Gordo
