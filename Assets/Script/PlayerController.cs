@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,13 +9,17 @@ public class PlayerController : MonoBehaviour
 
     private int jumpCount = 0;      // 現在のジャンプ回数
     public int maxJumpCount = 2;    // 最大ジャンプ回数（2で二段ジャンプ）
-    public int HP = 5;
+    public int HP = 0;
+    public Color Background, Value;
     
     private int MaxHP;
     public Image HPBar;
+    private float GaugeAmount = 0f;
+    private float MaxAmount = 10f;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        HPBar = gameObject.GetComponent<Image>();
         MaxHP = HP;
     }
 
@@ -40,6 +43,7 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             jumpCount++;
         }
+       
     }
 
     // 地面に触れたらジャンプ回数リセット
@@ -47,10 +51,33 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.collider.CompareTag("Floor"))
         {
-            HP++;
             Debug.Log("nowHP = " + HP);
-            HPBar.fillAmount = (float)HP / MaxHP;
             jumpCount = 0;
+        }
+        if (collision.collider.CompareTag("Object"))
+        {
+            HP++;
+            Debug.Log("nowHP = "+HP);
+            HPBar.fillAmount = (float)HP / MaxHP;
+        }
+        if (collision.collider.CompareTag("Untagged"))
+        {
+            HP--;
+            Debug.Log("nowHP = " +HP);
+            HPBar.fillAmount = (float)HP / MaxHP;
+        }
+    }
+
+    public void Increase(float amount)
+    {
+        GaugeAmount += amount;
+        // ゲージ量が最大を超えないように制限
+        GaugeAmount = Mathf.Min(GaugeAmount, MaxAmount);
+
+
+        if (GaugeAmount >= MaxAmount)
+        {
+            Debug.Log("GameOver");
         }
     }
 }
