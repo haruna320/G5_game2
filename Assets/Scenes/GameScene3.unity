@@ -10497,7 +10497,8 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1519255682517910379, guid: b6ed95875921a1f4f9c6f17b9f812b11, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -10531,13 +10532,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15d44506f95538d4a9e12f7369ffbffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 8
+  moveSpeed: 9
   jumpPower: 8
   maxJumpCount: 2
   HP: 5
-  Background: {r: 0, g: 0, b: 0, a: 0}
-  Value: {r: 0, g: 0, b: 0, a: 0}
-  HPBar: {fileID: 0}
+  HPBar: {fileID: 1884067543}
 --- !u!50 &1675036244
 Rigidbody2D:
   serializedVersion: 5
